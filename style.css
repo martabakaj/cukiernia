@@ -1,0 +1,89 @@
+body{   
+    background-color: wheat;
+    font-family: 'Freckle Face', sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+/* font-family: 'Baloo Bhaina', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Freckle Face', cursive;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Lily Script One', cursive; */
+
+#container{
+	width: 1335px;
+	margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+#menu{
+    height: 120px;
+    background-color: #4d4d4d;
+    color:#f9faed;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+#baner{
+    height: 480px;
+    width: 1335px;
+    text-align: center;
+    }
+#koncepcja{
+    height: 960px;
+    width: 1335px;
+    background-color:#f9faed;
+}
+#produkt{
+    height: 480px;
+    width: 1335px;
+    background-color:#fcb035;
+}
+#sklep{
+    height: 380px;
+    width: 1335px;
+    background-color: #f9faed;
+}
+#footer{
+    height: 120px;
+    width: 1335px;
+    background-color: #4d4d4d;
+}
+.h1{
+    font-size: 30px; 
+    text-align: center;
+    color: #4d4d4d;
+    letter-spacing: 3px;
+}
+
+/*Odwiedzony link*/
+
+a:visited{
+
+    color: cornsilk;
+}
+/*Link po najechaniu kursorem*/
+
+a:hover
+{
+  color: azure;  
+}
+.options{
+    float: left;
+    min-width: 180px;
+    height: 25px;
+    font-size: 24px;
+    padding: 50px;
+    border-right: 3px dotted #fcb035;
+    border-radius: 15px;
+     opacity: 0.8;
+}
+.options:hover
+{
+    background-color: #bbbbbb;
+    cursor: pointer;
+}
+.logo{
+    float: left;
+}
