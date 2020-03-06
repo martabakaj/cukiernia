@@ -1,75 +1,85 @@
-body{   
+body {
     background-color: wheat;
     font-family: 'Freckle Face', sans-serif;
     font-size: 20px;
     color: grey;
 }
+
 /* font-family: 'Baloo Bhaina', cursive;
 font-family: 'Herr Von Muellerhoff', cursive;
 font-family: 'Freckle Face', cursive;
 font-family: 'Oleo Script Swash Caps', cursive;
 font-family: 'Lily Script One', cursive; */
 
-#container{
-	width: 1335px;
-	margin-left:auto;
-    margin-right:auto;
+#container {
+    width:100%;
+    max-width: 1335px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
-#menu{
+#menu {
     height: 120px;
     background-color: #4d4d4d;
-    color:#f9faed;
-    margin-top: 20px;
+    color: #f9faed;
+    margin-top: 10px;
     text-align: center;
-    
 }
-#baner{
+
+#baner {
     height: 480px;
-    width: 1335px;
     text-align: center;
-    }
-#koncepcja{
+}
+
+#koncept {
     height: 960px;
-    width: 1335px;
-    background-color:#f9faed;
-}
-#produkt{
-    height: 480px;
-    width: 1335px;
-    background-color:#fcb035;
-}
-#sklep{
-    height: 380px;
-    width: 1335px;
     background-color: #f9faed;
 }
-#footer{
-    height: 120px;
-    width: 1335px;
-    background-color: #4d4d4d;
+
+#produkt {
+    padding-top: 1px;
+    height: 480px;
+    background-color: #fcb035;
 }
-.h1{
-    font-size: 30px; 
+
+h1 {
+    margin: 0;
+    font-size: 30px;
     text-align: center;
     color: #4d4d4d;
     letter-spacing: 3px;
 }
 
+#sklep {
+    height: 380px;
+    background-color: #f9faed;
+}
+
+#kontakt  {
+    height: 220px;
+    background-color: #4d4d4d;
+    
+}
+
+#kontakt h1{
+    
+}
+
 /*Odwiedzony link*/
 
-a:visited{
+a:visited {
 
     color: cornsilk;
 }
+
 /*Link po najechaniu kursorem*/
 
-a:hover
-{
-  color: azure;  
+a:hover {
+    color: azure;
 }
-.options{
+
+.options {
     float: left;
     min-width: 180px;
     height: 25px;
@@ -77,13 +87,14 @@ a:hover
     padding: 50px;
     border-right: 3px dotted #fcb035;
     border-radius: 15px;
-     opacity: 0.8;
+    opacity: 0.8;
 }
-.options:hover
-{
-    background-color: #bbbbbb;
+
+.options:hover {
+    background-color: #3f3e3e;
     cursor: pointer;
 }
-.logo{
+
+.logo {
     float: left;
 }
