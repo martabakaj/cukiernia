@@ -25,6 +25,7 @@ font-family: 'Lily Script One', cursive; */
     color: #f9faed;
     margin-top: 10px;
     text-align: center;
+  
 }
 
 #baner {
@@ -74,10 +75,13 @@ a:visited {
 }
 
 /*Link po najechaniu kursorem*/
+a {
+    text-decoration: none;
+}
 
 a:hover {
     color: azure;
-}
+  }
 
 .options {
     float: left;

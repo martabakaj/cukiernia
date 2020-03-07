@@ -19,23 +19,22 @@
         href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Freckle+Face|Herr+Von+Muellerhoff|Lily+Script+One|Oleo+Script+Swash+Caps:400,700&display=swap&subset=latin-ext"
         rel="stylesheet">
 
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-   <script src="jquery.scrollTo.min.js"></script>
-    <!-- javascript 
+    <script src="jquery.scrollTo.min.js"></script>
+
+    <!-- javascript -->
     <script>
+        jQuery(function ($) {
+            //zresetuj scrolla
+            $.scrollTo(0);
 
-jQuery(function($)
-		{
-			//zresetuj scrolla
-			$.scrollTo(0);
+            $('.menulink').click(function () {
+                $.scrollTo($(this).attr("href"), 500);
+            });
+        });
+    </script>
 
-           $('#link1').click(function() { $.scrollTo($('#koncept'), 500); });
-        }
-        );
-        --> 
-    </scrip>
- 
 </head>
 
 <body>
@@ -48,19 +47,19 @@ jQuery(function($)
             </div>
 
             <div class="options">
-                <a href="#koncept">KONCEPT</a>
+                <a class="menulink" href="#koncept">KONCEPT</a>
             </div>
 
             <div class="options">
-                <a href="#produkt">PRODUKT</a>
+                <a class="menulink" href="#produkt">PRODUKT</a>
             </div>
 
             <div class="options">
-                <a href="#sklep">NASZ SKLEP</a>
+                <a class="menulink" href="#sklep">NASZ SKLEP</a>
             </div>
 
             <div class="options">
-                <a href="#kontakt">KONTAKT</a>
+                <a class="menulink" href="#kontakt">KONTAKT</a>
             </div>
 
             <div style="clear:both;"></div>
