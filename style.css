@@ -67,15 +67,9 @@ h1 {
     color:#f9faed;
 }
 
-/*Odwiedzony link*/
-
-a:visited {
-
-    color: cornsilk;
-}
-
 /*Link po najechaniu kursorem*/
 a {
+    color: cornsilk;
     text-decoration: none;
 }
 
@@ -101,4 +95,17 @@ a:hover {
 
 .logo {
     float: left;
+}
+
+a.scrollup{
+    width: 64px;
+    height: 64px;
+    text-decoration: none;
+    background: url("picture/up.png") no-repeat 0px 0px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    background-size: cover;
+    border-radius: 80%;
+    display: none;
 }

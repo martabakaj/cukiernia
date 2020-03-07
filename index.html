@@ -29,10 +29,27 @@
             //zresetuj scrolla
             $.scrollTo(0);
 
-            $('.menulink').click(function () {
-                $.scrollTo($(this).attr("href"), 500);
-            });
+            $('.menulink').click(function () {$.scrollTo($(this).attr("href"), 500);});
+            $('.scrollup').click(function () {$.scrollTo(0, 1000); return false;});
         });
+
+// pokaż podczas przewijania
+
+$(window).scroll(function()
+{
+if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+else $('.scrollup').fadeOut();
+}
+
+
+
+)
+
+
+
+
+;
+
     </script>
 
 </head>
