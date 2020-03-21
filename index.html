@@ -29,27 +29,21 @@
             //zresetuj scrolla
             $.scrollTo(0);
 
-            $('.menulink').click(function () {$.scrollTo($(this).attr("href"), 500);});
-            $('.scrollup').click(function () {$.scrollTo(0, 1000); return false;});
+            $('.menulink').click(function () {
+                $.scrollTo($(this).attr("href"), 500);
+            });
+            $('.scrollup').click(function () {
+                $.scrollTo(0, 1000);
+                return false;
+            });
         });
 
-// pokaż podczas przewijania
+        // pokaż podczas przewijania
 
-$(window).scroll(function()
-{
-if($(this).scrollTop()>300) $('.scrollup').fadeIn();
-else $('.scrollup').fadeOut();
-}
-
-
-
-)
-
-
-
-
-;
-
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 300) $('.scrollup').fadeIn();
+            else $('.scrollup').fadeOut();
+        });
     </script>
 
 </head>
@@ -87,9 +81,35 @@ else $('.scrollup').fadeOut();
         </div>
 
         <div id="koncept">
-            <!--odwołanie#-->
-            <h1>KONCEPT</h1>
-            sdfsdfsdfsdfsdf
+            <div class="koncept_tytul">
+                <!--odwołanie#-->
+                <h1>KONCEPT</h1>
+            </div>
+            <div class="koncept_1">
+                <div class="koncept_1a">
+                    <p>Mleko używane do naszych wypiekow pochodzi od szcześliwych krówek. </p>
+                </div>
+                <div class="koncept_1b">
+                    <p>Używamy tylko najlepszej jakosci produktów.</p>
+                </div>
+                <div class="koncept_1c">
+                    <p>Bakensiki to po prostu miłość do ciastek, która pragniemy podzielić się z Tobą.</p>
+                </div>
+            </div>
+            <div class="koncept_2">
+                <div class="koncept_2a">
+                    <div class="koncept_2aa"><img src="picture/cow.2.jpg" width="400px" height="275px"></div>
+                    <div class="koncept_2ab"> </div>
+                </div>
+                <div class="koncept_2b">
+                    <div class="koncept_2ba"><img src="picture/chocolate.jpg" width="400px" height="275px"></div>
+                    <div class="koncept_2bb"> </div>
+                </div>
+                <div class="koncept_2c">
+                    <div class="koncept_2ca"><img src="picture/walentynki.jpg" width="400px" height="275px"></div>
+                    <div class="koncept_2cb"> </div>
+                </div>
+            </div>
         </div>
 
         <div id="produkt">
@@ -99,6 +119,12 @@ else $('.scrollup').fadeOut();
         <!--odwołanie#-->
         <div id="sklep">
             <h1>NASZA SKLEP I MANUFAKTURA</h1>
+            <div class="shop_1"><img src="picture/shop.jpg" width="400px" height="275px"></div>
+                    <div class="shop_2"> <p>Przyjdz no mnie <br>
+                        ul. Ciastkowa 8 <br>
+                        60-888 Poznań
+                        </p>
+                 </div>
         </div>
         <!--odwołanie#-->
 

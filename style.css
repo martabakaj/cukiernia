@@ -2,7 +2,7 @@ body {
     background-color: wheat;
     font-family: 'Freckle Face', sans-serif;
     font-size: 20px;
-    color: grey;
+    color: #3f3e3e;
 }
 
 /* font-family: 'Baloo Bhaina', cursive;
@@ -12,7 +12,7 @@ font-family: 'Oleo Script Swash Caps', cursive;
 font-family: 'Lily Script One', cursive; */
 
 #container {
-    width:100%;
+    width: 100%;
     max-width: 1335px;
     margin-left: auto;
     margin-right: auto;
@@ -25,17 +25,142 @@ font-family: 'Lily Script One', cursive; */
     color: #f9faed;
     margin-top: 10px;
     text-align: center;
-  
 }
 
 #baner {
-    height: 480px;
+    height: 475px;
+    width: 1335px;
     text-align: center;
+    overflow: hidden;
+}
+
+#baner img {
+    transition: all 0.8s ease-in-out;
+}
+
+#baner:hover img {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15) rotate(-3deg);
 }
 
 #koncept {
-    height: 960px;
+    height: 1000px;
     background-color: #f9faed;
+}
+
+.koncept_tytul {
+    clear: both
+}
+
+.koncept_1 {
+    height: 850px;
+    float: left;
+    margin-top: 10px;
+    padding-left: 50px;
+    width: 44%;
+    font-size: 32px;
+    text-align: left;
+}
+
+.koncept_1a {
+    margin: 80px 0px 250px;
+}
+
+.koncept_1b {
+    margin: 50px 0px 200px;
+}
+
+.koncept_1c {
+    margin: 50px 0px;
+}
+
+.koncept_2 {
+    margin-top: 15px;
+    width: 52%;
+    float: right;
+}
+
+.koncept_2a {
+    float: right;
+}
+
+.koncept_2aa {
+    clear: both;
+    height: 18px;
+}
+
+.koncept_2ab {
+    background-color: #9C5F5E;
+    height: 200px;
+    width: 650px;
+    margin: 10px 0px 50px 0px;
+    padding: 10px 10px 10px 0px;
+}
+
+.koncept_2b {
+    float: right;
+}
+
+.koncept_2ba {
+    clear: both;
+    height: 18px;
+}
+
+.koncept_2bb {
+    background-color: #fcb035;
+    height: 200px;
+    width: 650px;
+    margin: 10px 0px 50px 0px;
+    padding: 10px 10px 10px 0px;
+}
+
+.koncept_2c {
+    float: right;
+}
+
+.koncept_2ca {
+    clear: both;
+    height: 18px;
+}
+
+.koncept_2cb {
+    background-color: #f7b4b4;
+    height: 200px;
+    width: 650px;
+    margin: 10px 0px 50px 0px;
+    padding: 10px 10px 10px 0px;
+}
+
+.koncept_2a img {
+    transition: all 0.8s ease-in-out;
+}
+
+.koncept_2b img {
+    transition: all 0.8s ease-in-out;
+}
+
+.koncept_2c img {
+    transition: all 0.8s ease-in-out;
+}
+
+
+.koncept_2a:hover img {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.koncept_2b:hover img {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.koncept_2c:hover img {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
 }
 
 #produkt {
@@ -46,7 +171,8 @@ font-family: 'Lily Script One', cursive; */
 
 h1 {
     margin: 0;
-    font-size: 30px;
+    padding-top: 10px;
+    font-size: 45px;
     text-align: center;
     color: #4d4d4d;
     letter-spacing: 3px;
@@ -57,14 +183,13 @@ h1 {
     background-color: #f9faed;
 }
 
-#kontakt  {
+#kontakt {
     height: 220px;
     background-color: #4d4d4d;
-    
 }
 
-#kontakt h1{
-    color:#f9faed;
+#kontakt h1 {
+    color: #f9faed;
 }
 
 /*Link po najechaniu kursorem*/
@@ -75,7 +200,7 @@ a {
 
 a:hover {
     color: azure;
-  }
+}
 
 .options {
     float: left;
@@ -97,7 +222,7 @@ a:hover {
     float: left;
 }
 
-a.scrollup{
+a.scrollup {
     width: 64px;
     height: 64px;
     text-decoration: none;
@@ -108,4 +233,17 @@ a.scrollup{
     background-size: cover;
     border-radius: 80%;
     display: none;
+}
+
+.shop_1{
+    float: left;
+    padding-left: 180px;
+  
+}
+
+.shop_2{
+       font-size: 32px;
+       text-align: center;
+       margin-top: 50px;
+       float: left;
 }
